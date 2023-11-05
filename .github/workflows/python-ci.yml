@@ -1,0 +1,27 @@
+name: Python CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+
+      - name: Install PyBuilder
+        run: |
+          pip install pybuilder
+          pyb install_dependencies
+
+      - name: Run PyBuilder
+        run: pyb verify
