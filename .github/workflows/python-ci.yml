@@ -27,7 +27,7 @@ jobs:
         run: pyb verify
 
       - name: Build Docker image
-        run: docker build -t assignment-deployment:V1.0 .
+        run: docker build -t stereyno/assignment-deployment:V1.0 .
 
       - name: Authenticate to Docker Hub
         run: echo ${{ secrets.DOCKER_HUB_TOKEN }} | docker login -u stereyno --password-stdin
