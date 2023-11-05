@@ -1,0 +1,32 @@
+running clean
+'build/lib' does not exist -- can't clean it
+'build/bdist.macosx-10.9-universal2' does not exist -- can't clean it
+'build/scripts-3.12' does not exist -- can't clean it
+running sdist
+running egg_info
+creating pipeline_assignment.egg-info
+writing pipeline_assignment.egg-info/PKG-INFO
+writing dependency_links to pipeline_assignment.egg-info/dependency_links.txt
+writing namespace_packages to pipeline_assignment.egg-info/namespace_packages.txt
+writing top-level names to pipeline_assignment.egg-info/top_level.txt
+writing manifest file 'pipeline_assignment.egg-info/SOURCES.txt'
+reading manifest file 'pipeline_assignment.egg-info/SOURCES.txt'
+writing manifest file 'pipeline_assignment.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating pipeline-assignment-1.0.dev0
+creating pipeline-assignment-1.0.dev0/pipeline_assignment.egg-info
+copying files to pipeline-assignment-1.0.dev0...
+copying calc.py -> pipeline-assignment-1.0.dev0
+copying setup.py -> pipeline-assignment-1.0.dev0
+copying pipeline_assignment.egg-info/PKG-INFO -> pipeline-assignment-1.0.dev0/pipeline_assignment.egg-info
+copying pipeline_assignment.egg-info/SOURCES.txt -> pipeline-assignment-1.0.dev0/pipeline_assignment.egg-info
+copying pipeline_assignment.egg-info/dependency_links.txt -> pipeline-assignment-1.0.dev0/pipeline_assignment.egg-info
+copying pipeline_assignment.egg-info/namespace_packages.txt -> pipeline-assignment-1.0.dev0/pipeline_assignment.egg-info
+copying pipeline_assignment.egg-info/top_level.txt -> pipeline-assignment-1.0.dev0/pipeline_assignment.egg-info
+copying pipeline_assignment.egg-info/zip-safe -> pipeline-assignment-1.0.dev0/pipeline_assignment.egg-info
+Writing pipeline-assignment-1.0.dev0/setup.cfg
+creating dist
+Creating tar archive
+removing 'pipeline-assignment-1.0.dev0' (and everything under it)

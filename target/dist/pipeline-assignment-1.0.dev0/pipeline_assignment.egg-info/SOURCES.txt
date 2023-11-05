@@ -1,0 +1,8 @@
+calc.py
+setup.py
+pipeline_assignment.egg-info/PKG-INFO
+pipeline_assignment.egg-info/SOURCES.txt
+pipeline_assignment.egg-info/dependency_links.txt
+pipeline_assignment.egg-info/namespace_packages.txt
+pipeline_assignment.egg-info/top_level.txt
+pipeline_assignment.egg-info/zip-safe
