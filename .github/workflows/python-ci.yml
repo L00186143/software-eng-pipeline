@@ -29,9 +29,10 @@ jobs:
       - name: Run PyBuilder Coverage
         run: pyb analyze
 
-      - name: Upload Coverage Report to Codecov
-        run: |
-          bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
       - name: Build Docker image
         run: docker build -t stereyno/assignment-deployment:V1.1 .
