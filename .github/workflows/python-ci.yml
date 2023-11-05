@@ -25,3 +25,12 @@ jobs:
 
       - name: Run PyBuilder
         run: pyb verify
+
+      - name: Build Docker image
+        run: docker build -t assignment-pipeline .
+
+      - name: Authenticate to Docker Hub
+        run: echo ${{ secrets.DOCKER_HUB_TOKEN }} | docker login -u stereyno --password-stdin
+
+      - name: Push Docker image to Docker Hub
+        run: docker push assignment-pipeline
