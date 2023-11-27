@@ -1,5 +1,5 @@
 import unittest
-from my_script import add, subtract, multiply, divide
+from calc import add, subtract, multiply, divide
 
 class TestCalculator(unittest.TestCase):
     def test_add(self):
@@ -14,3 +14,7 @@ class TestCalculator(unittest.TestCase):
     def test_divide(self):
         self.assertEqual(divide(8, 2), 4)
         self.assertEqual(divide(8, 0), "Cannot divide by zero!")
+
+
+if __name__ == '__main__':
+    unittest.main()
