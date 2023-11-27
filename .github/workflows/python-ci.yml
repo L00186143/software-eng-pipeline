@@ -44,4 +44,4 @@ jobs:
         run: docker push stereyno/assignment-deployment:V1.1
 
       - name: Run Docker container
-        run: docker run stereyno/assignment-deployment:V1.1 python calc.py
+        run: docker run stereyno/assignment-deployment:V1.1 python /app/src/main/python/calc.py
