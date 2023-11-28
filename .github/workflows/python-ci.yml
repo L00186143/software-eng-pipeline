@@ -23,6 +23,9 @@ jobs:
           pip install pybuilder
           pyb verify
 
+      - name: Install pytest
+        run: pip install pytest
+
       - name: Run pytest unit tests
         run: pytest
 
