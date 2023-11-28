@@ -1,7 +1,18 @@
-import unittest
+
+import sys
+import os
+from unittest import TestCase
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+project_root = os.path.join(current_dir, '../..')
+
+sys.path.append(project_root)
+
 from main.python.calc import add, subtract, multiply, divide
 
-class TestCalculator(unittest.TestCase):
+
+class TestCalculator(TestCase):
     def test_add(self):
         self.assertEqual(add(3, 5), 8)
 
@@ -16,5 +27,4 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(divide(8, 0), "Cannot divide by zero!")
 
 
-if __name__ == '__main__':
-    unittest.main()
+sys.path.remove(project_root)

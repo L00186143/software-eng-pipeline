@@ -1,5 +1,0 @@
-/Users/stephenreynolds/Documents/ATU/DevOpsSoftEng/software-eng-pipeline/src/main/python/calc.py:4:1: E302 expected 2 blank lines, found 1
-/Users/stephenreynolds/Documents/ATU/DevOpsSoftEng/software-eng-pipeline/src/main/python/calc.py:7:1: E302 expected 2 blank lines, found 1
-/Users/stephenreynolds/Documents/ATU/DevOpsSoftEng/software-eng-pipeline/src/main/python/calc.py:10:1: E302 expected 2 blank lines, found 1
-/Users/stephenreynolds/Documents/ATU/DevOpsSoftEng/software-eng-pipeline/src/main/python/calc.py:17:1: E305 expected 2 blank lines after class or function definition, found 1
-/Users/stephenreynolds/Documents/ATU/DevOpsSoftEng/software-eng-pipeline/src/main/python/calc.py:20:33: W292 no newline at end of file
