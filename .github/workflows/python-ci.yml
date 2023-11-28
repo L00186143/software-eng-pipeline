@@ -23,8 +23,8 @@ jobs:
           pip install pybuilder
           pyb verify
 
-      - name: Run PyBuilder unittest
-        run: pyb run_unit_tests
+      - name: Run pytest unit tests
+        run: pytest
 
       - name: Run PyBuilder Coverage
         run: pyb analyze
