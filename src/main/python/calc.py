@@ -11,7 +11,7 @@ def divide(a, b):
     if b != 0:
         return a / b
     else:
-        return "Division by zero is not possible!!!"
+        return "Cannot divide by zero!"
 
 # Usage
 print("Addition:", add(5, 3))
